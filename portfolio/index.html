@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewpoint" content="width=device-width, initial_scale=1.0">
+        <title>My Portifolio</title>
+        <link rel="stylesheet" href="style.css">
+        <!----Font awesome cdn font icon css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+    <body>
+ <div class="hero-header"> 
+    <div class="wrapper">
+      <header>
+            <div class="logo">
+            <i class="fa-solid fa-l"></i>
+            <div class="logo-text"> Lujain Elsheikh</div>
+        </div>
+        <nav>
+            <div class="togglebtn"> 
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navlinks">
+               <li><a href="#"> Home</a> </li>
+               <li><a href="portfolio.html">Homework1</a> </li>
+               <li><a href="#"> Resume </a> </li>
+               <li><a href="#"> Blog </a> </li>
+               <li><a href="#"> Contact </a> </li>
+            
+            </ul>
+        </nav>
+      </header>
+      <div class="container">
+        <div class="hero-pic"> 
+            <img src="pics\lujain.jpg"alt="profile pic">
+        </div>
+      <div class="hero-text"> 
+        <h5>Hi I'm a <span class="input">Computer Engineering Student</span></h5>
+        <h1>Lujain Elsheikh </h1>
+       
+        <p>
+          Welcome to my portfolio! I Computer Enginnering student , and i'm passionate about learning and growing everday . Explore my journey by downloading my CV .
+
+
+      </p>
+
+      <h1>Homeworks</h1>
+
+
+        <div class ="btn-group">
+            <a href="C:\Users\alsir\OneDrive\Desktop\portfolio\Lujain CV 2.docx" dwonload="Lujain CV 2.docx" class ="btn active">Download CV</a>
+            
+            <a href="#" class="btn">Contact</a>
+        </div>
+        <div class ="btn-group">
+            
+            <a href="C:\Users\zubai\OneDrive\Desktop\portfolio\portfolio\homwork #2 006.docx" class="btn">HW#2</a>
+            <a href="C:\Users\zubai\OneDrive\Desktop\portfolio\portfolio\homwork #3 007.docx" class="btn">HW#3</a>
+        </div>
+         <div class ="btn-group">
+            
+            <a href="C:\Users\zubai\OneDrive\Desktop\portfolio\portfolio\homwork #4 008.docx" class="btn">HW#4</a>
+            <a href="C:\Users\zubai\OneDrive\Desktop\portfolio\portfolio\homwork #5 009.docx" class="btn">HW#5</a>
+        </div>
+        
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook" ></i></a>
+            <a href="https://www.linkedin.com/in/lujain-elsheikh-84191b1a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin" ></i></a>
+            <a href="https://www.instagram.com/xxlujainxx_?igsh=MXh0aTNlbjQ1ZjhxMQ=="><i class="fa-brands fa-instagram" ></i></a>
+        
+            
+
+        </div>
+      </div>
+    </div>
+ </div>
+ <script>src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"</script>
+ <script>
+   var togglebtn=document.querySelector(".togglebtn");
+   var nav=document.querySelector(".navlinks");
+   var links=document.querySelector(".navlinks li");
+   togglebtn.addEventListener("click",function(){
+    this.classlist.toggle("click");
+    nav.classlist.toggle("open");
+   })
+     var typed=new Typed(".input")
+     strings:["Computer Engineering", "Student"];
+     typedspeed:70;
+     backspeed:50;
+     loop:true
+ </script>
+    </body>
+
+
+
+
+</html>
